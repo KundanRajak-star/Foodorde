@@ -20,14 +20,14 @@ export class FoodService {
   }
   getAllTag():Tag[]{
     return[
-      {name: 'All', count:24},
+      {name: 'All', count:48},
       {name: 'StreetFood', count:5},
       {name: 'pizzaburgger', count:3},
       {name: 'Lunch', count:3},
       {name: 'SlowFood', count:2},
       {name: 'Hamburger', count:1},
       {name: 'fry', count:1},
-      {name: 'Myfamily', count:4}
+      {name: 'BiharSpecial', count:24}
     ]
 
   }
@@ -323,52 +323,317 @@ export class FoodService {
   
      {
       id:25,
-      name:'Khusboo',
+      name:'Samosa',
       cookTime:'30-55',
       price:1003,
       favorite:true,
       origins:['Smastipur'],
       star:5,
-      imageUrl:'/assets/fig26.png',
-      tags:['Myfamily']
+      imageUrl:'/assets/fig26.jpg',
+      tags:['BiharSpecial']
      
      },
      {
       id:26,
-      name:'Simple',
+      name:'Fried-rice(egg)',
       cookTime:'30-55',
       price:1003,
       favorite:true,
-      origins:['Drbhanga'],
+      origins:['Smastipur'],
       star:5,
-      imageUrl:'/assets/fig27.png',
-      tags:['Myfamily']
+      imageUrl:'/assets/fig27.jpg',
+      tags:['BiharSpecial']
      
      },
      {
       id:27,
-      name:'Bhanji',
+      name:'Rasogulla',
       cookTime:'30-55',
       price:1003,
       favorite:true,
-      origins:['Hajpurba'],
+      origins:['Smastipur'],
       star:5,
-      imageUrl:'/assets/fig28.png',
-      tags:['Myfamily']
+      imageUrl:'/assets/fig28.jpg',
+      tags:['BiharSpecial']
      
      },
      {
       id:28,
-      name:'Ansika ',
+      name:'Chole Bhature',
       cookTime:'30-55',
       price:1003,
       favorite:true,
-      origins:['Hajpurba'],
+      origins:['Smastipur'],
       star:5,
-      imageUrl:'/assets/fig29.png',
-      tags:['Myfamily']
+      imageUrl:'/assets/fig29.jpg',
+      tags:['BiharSpecial']
      
      },
+     {
+      id:29,
+      name:'Kachori (sabji)',
+      cookTime:'30-55',
+      price:1003,
+      favorite:true,
+      origins:['Smastipur'],
+      star:5,
+      imageUrl:'/assets/fig30.jpg',
+      tags:['BiharSpecial']
+     
+     },
+     {
+      id:30,
+      name:'Butter nan (Sabji)',
+      cookTime:'30-55',
+      price:1003,
+      favorite:true,
+      origins:['Smastipur'],
+      star:5,
+      imageUrl:'/assets/fig31.jpg',
+      tags:['BiharSpecial']
+     
+     },
+     {
+      id:31,
+      name:'Chole puri',
+      cookTime:'30-55',
+      price:1003,
+      favorite:true,
+      origins:['Smastipur'],
+      star:5,
+      imageUrl:'/assets/fig32.jpg',
+      tags:['BiharSpecial']
+     
+     },
+     {
+      id:32,
+      name:'Mutton with gravi',
+      cookTime:'30-55',
+      price:1003,
+      favorite:true,
+      origins:['Smastipur'],
+      star:5,
+      imageUrl:'/assets/fig33.jpg',
+      tags:['BiharSpecial']
+     
+     },
+     {
+      id:33,
+      name:'Chicken grevi',
+      cookTime:'30-55',
+      price:1003,
+      favorite:true,
+      origins:['Smastipur'],
+      star:5,
+      imageUrl:'/assets/fig34.jpg',
+      tags:['BiharSpecial']
+     
+     },
+     {
+      id:34,
+      name:'Chana fried',
+      cookTime:'30-55',
+      price:1003,
+      favorite:true,
+      origins:['Smastipur'],
+      star:5,
+      imageUrl:'/assets/fig35.jpg',
+      tags:['BiharSpecial']
+     
+     },
+     {
+      id:35,
+      name:'Golgappe',
+      cookTime:'30-55',
+      price:1003,
+      favorite:true,
+      origins:['Smastipur'],
+      star:5,
+      imageUrl:'/assets/fig36.jpg',
+      tags:['BiharSpecial']
+     
+     },
+     {
+      id:36,
+      name:'Sweets',
+      cookTime:'30-55',
+      price:1003,
+      favorite:true,
+      origins:['Smastipur'],
+      star:5,
+      imageUrl:'/assets/fig37.jpg',
+      tags:['BiharSpecial']
+     
+     },
+     {
+      id:37,
+      name:'Chinese samosa',
+      cookTime:'30-55',
+      price:1003,
+      favorite:true,
+      origins:['Smastipur'],
+      star:5,
+      imageUrl:'/assets/fig38.jpg',
+      tags:['BiharSpecial']
+     
+     },
+     {
+      id:38,
+      name:'Special chole (puri)',
+      cookTime:'30-55',
+      price:1003,
+      favorite:true,
+      origins:['Smastipur'],
+      star:5,
+      imageUrl:'/assets/fig39.jpg',
+      tags:['BiharSpecial']
+     
+     },
+     {
+      id:39,
+      name:'Fried rice',
+      cookTime:'30-55',
+      price:1003,
+      favorite:true,
+      origins:['Smastipur'],
+      star:5,
+      imageUrl:'/assets/fig40.jpg',
+      tags:['BiharSpecial']
+     
+     },
+     {
+      id:40,
+      name:'Kheer',
+      cookTime:'30-55',
+      price:1003,
+      favorite:true,
+      origins:['Smastipur'],
+      star:5,
+      imageUrl:'/assets/fig41.jpg',
+      tags:['BiharSpecial']
+     
+     },
+     {
+      id:41,
+      name:'Allo Paratha',
+      cookTime:'30-55',
+      price:1003,
+      favorite:true,
+      origins:['Smastipur'],
+      star:5,
+      imageUrl:'/assets/fig42.jpg',
+      tags:['BiharSpecial']
+     
+     },
+     {
+      id:42,
+      name:'Poha',
+      cookTime:'30-55',
+      price:1003,
+      favorite:true,
+      origins:['Smastipur'],
+      star:5,
+      imageUrl:'/assets/fig43.jpg',
+      tags:['BiharSpecial']
+     
+     },
+     {
+      id:43,
+      name:'Chole Bhature',
+      cookTime:'30-55',
+      price:1003,
+      favorite:true,
+      origins:['Smastipur'],
+      star:5,
+      imageUrl:'/assets/fig44.jpg',
+      tags:['BiharSpecial']
+     
+     },
+     {
+      id:44,
+      name:'Litti samosa',
+      cookTime:'30-55',
+      price:1003,
+      favorite:true,
+      origins:['Smastipur'],
+      star:5,
+      imageUrl:'/assets/fig45.jpg',
+      tags:['BiharSpecial']
+     
+     },
+     {
+      id:45,
+      name:'Plane paratha',
+      cookTime:'30-55',
+      price:1003,
+      favorite:true,
+      origins:['Smastipur'],
+      star:5,
+      imageUrl:'/assets/fig46.jpg',
+      tags:['BiharSpecial']
+     
+     },
+     {
+      id:46,
+      name:'Chaumin',
+      cookTime:'30-55',
+      price:1003,
+      favorite:true,
+      origins:['Smastipur'],
+      star:5,
+      imageUrl:'/assets/fig47.jpg',
+      tags:['BiharSpecial']
+     
+     },
+     {
+      id:47,
+      name:'Kundan',
+      cookTime:'30-55',
+      price:1003,
+      favorite:true,
+      origins:['Smastipur'],
+      star:5,
+      imageUrl:'/assets/fig45.jpg',
+      tags:['BiharSpecial']
+     
+     },
+     {
+      id:25,
+      name:'Vikram',
+      cookTime:'30-55',
+      price:1003,
+      favorite:true,
+      origins:['Smastipur'],
+      star:5,
+      imageUrl:'/assets/fig1.png',
+      tags:['BiharSpecial']
+     
+     },
+     {
+      id:25,
+      name:'Samosa from kkr',
+      cookTime:'30-55',
+      price:1003,
+      favorite:true,
+      origins:['Smastipur'],
+      star:5,
+      imageUrl:'/assets/fig26.jpg',
+      tags:['BiharSpecial']
+     
+     },
+     {
+      id:25,
+      name:'samosa from kundan',
+      cookTime:'30-55',
+      price:1003,
+      favorite:true,
+      origins:['Smastipur'],
+      star:5,
+      imageUrl:'/assets/fig26.jpg',
+      tags:['BiharSpecial']
+     
+     },
+
     ]
 
   }

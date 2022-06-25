@@ -7,4 +7,5 @@ import { StarRating } from 'angular-star-rating';
 })
 export class AppComponent {
   title = 'foodorder';
+  
 }

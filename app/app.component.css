@@ -1,0 +1,29 @@
+img{
+    width: 650px;
+    height: 250px;
+    margin-left: 370px;
+    margin-top: 10px;
+}
+.img1{
+    width: 200px;
+    margin-top: 20px;
+margin-left: 100px;
+}
+.img2{
+    width: 200px;
+    margin-left: 26px;
+    margin-right: 200px;
+    height: 250px;
+    position:static;
+    margin-top: -256px;
+
+}
+.button{
+    top: 10px;
+    color: brown;
+    margin-left: 100px;
+}
+.facebook{
+    color: brown;
+    margin-left: 100px;
+}
